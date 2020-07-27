@@ -13,6 +13,8 @@
 		CE8F92C624CCEDA300C0128E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8F92C524CCEDA300C0128E /* Assets.xcassets */; };
 		CE8F92C924CCEDA300C0128E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8F92C824CCEDA300C0128E /* Preview Assets.xcassets */; };
 		CE8F92CC24CCEDA300C0128E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8F92CA24CCEDA300C0128E /* LaunchScreen.storyboard */; };
+		CE8F92D424CCEE2A00C0128E /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F92D324CCEE2A00C0128E /* CircularImageView.swift */; };
+		CE8F92D624CCEE7500C0128E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8F92D524CCEE7500C0128E /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE8F92C824CCEDA300C0128E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE8F92CB24CCEDA300C0128E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8F92CD24CCEDA300C0128E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8F92D324CCEE2A00C0128E /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		CE8F92D524CCEE7500C0128E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CE8F92BF24CCEDA200C0128E /* AppDelegate.swift */,
 				CE8F92C124CCEDA200C0128E /* SceneDelegate.swift */,
 				CE8F92C324CCEDA200C0128E /* ContentView.swift */,
+				CE8F92D324CCEE2A00C0128E /* CircularImageView.swift */,
+				CE8F92D524CCEE7500C0128E /* MapView.swift */,
 				CE8F92C524CCEDA300C0128E /* Assets.xcassets */,
 				CE8F92CA24CCEDA300C0128E /* LaunchScreen.storyboard */,
 				CE8F92CD24CCEDA300C0128E /* Info.plist */,
@@ -148,6 +154,8 @@
 			files = (
 				CE8F92C024CCEDA200C0128E /* AppDelegate.swift in Sources */,
 				CE8F92C224CCEDA200C0128E /* SceneDelegate.swift in Sources */,
+				CE8F92D624CCEE7500C0128E /* MapView.swift in Sources */,
+				CE8F92D424CCEE2A00C0128E /* CircularImageView.swift in Sources */,
 				CE8F92C424CCEDA200C0128E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
